@@ -11,8 +11,8 @@ Built in Rust on [`krad-extension-sdk`](https://crates.io/crates/krad-extension-
 | Platform | Backend | Status |
 | --- | --- | --- |
 | macOS | AppleScript (`osascript`) for Spotify and Music; MediaRemote for other apps ⁴ | Tested |
-| Linux | MPRIS over D-Bus | Builds; not yet tested against Spotify |
-| Windows | System media transport controls (`Windows.Media.Control`) | Builds; not yet tested against Spotify |
+| Linux | MPRIS over D-Bus | Tested |
+| Windows | System media transport controls (`Windows.Media.Control`) | Tested |
 
 Features available on each platform:
 
