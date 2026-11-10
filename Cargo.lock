@@ -452,8 +452,7 @@ dependencies = [
 [[package]]
 name = "krad-extension-api"
 version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fcb7eaeaa4fed6ba9a594a36d8f45214f50692a4f292019bad174095d7b37077"
+source = "git+https://github.com/joordih/krad-ade?rev=9c0812c09aa238615015d0c7a240afc22f0607e5#9c0812c09aa238615015d0c7a240afc22f0607e5"
 dependencies = [
  "krad-extension-id",
  "schemars",
@@ -465,8 +464,7 @@ dependencies = [
 [[package]]
 name = "krad-extension-id"
 version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "882d83a718d824406037ecfbf27a0f511afecfb339ca363d9f6fde90b44a89f4"
+source = "git+https://github.com/joordih/krad-ade?rev=9c0812c09aa238615015d0c7a240afc22f0607e5#9c0812c09aa238615015d0c7a240afc22f0607e5"
 dependencies = [
  "serde",
 ]
@@ -474,8 +472,7 @@ dependencies = [
 [[package]]
 name = "krad-extension-sdk"
 version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "545ae21f51fd40a9bd6fca8d820680ca4bc20c12bb9dd1bfc645b27330252d69"
+source = "git+https://github.com/joordih/krad-ade?rev=9c0812c09aa238615015d0c7a240afc22f0607e5#9c0812c09aa238615015d0c7a240afc22f0607e5"
 dependencies = [
  "krad-extension-api",
  "serde",
