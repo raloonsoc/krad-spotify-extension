@@ -7,7 +7,11 @@ license = "MIT"
 publish = false
 
 [dependencies]
-krad-extension-sdk = "0.4.0"
+# Pinned to the v0.4.0 release commit. The crate published on crates.io as
+# 0.4.0 predates `Feature::Events` (Krad ADE 0.4.0 sends it in
+# InitializeParams.features and the extension must accept it), so the
+# registry copy cannot deserialize the handshake.
+krad-extension-sdk = { git = "https://github.com/joordih/krad-ade", rev = "9c0812c09aa238615015d0c7a240afc22f0607e5" }
 image = { version = "0.25", default-features = false, features = ["jpeg", "png"] }
 thiserror = "2"
 
